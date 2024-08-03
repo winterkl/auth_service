@@ -1,0 +1,23 @@
+env: "local"
+
+grpc_server:
+  host: localhost
+  port: 44044
+  timeout: 1h
+
+db:
+  host: localhost
+  port: 7000
+  user: auth
+  password: auth
+  db: postgres
+  ssl_mode: disable
+
+redis:
+  host: localhost
+  port: 6379
+  db: 0
+  password: auth
+
+jwt_auth:
+  key: "O1SKGPWE412"
